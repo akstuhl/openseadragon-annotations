@@ -1,4 +1,4 @@
-import { EventSource } from 'OpenSeadragon';
+import { EventSource } from 'openseadragon';
 
 export default () =>
   Object.assign(Object.create(EventSource.prototype), {

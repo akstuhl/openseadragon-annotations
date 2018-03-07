@@ -1,4 +1,4 @@
-import { extend, Button, ControlAnchor } from 'OpenSeadragon';
+import { extend, Button, ControlAnchor } from 'openseadragon';
 
 import drawGroupHover from '../../img/draw_grouphover.png';
 import drawHover from '../../img/draw_hover.png';
