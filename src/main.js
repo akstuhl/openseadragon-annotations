@@ -1,4 +1,4 @@
-import { Rect } from 'OpenSeadragon';
+import { Rect } from 'openseadragon';
 import { h, render } from 'preact';
 import Overlay from './views/Overlay';
 import { DrawControl, MoveControl } from './views/Controls';
@@ -59,4 +59,3 @@ export default ({ viewer }) => {
   if (viewer.isOpen()) { annotations.onOpen(); }
   return annotations;
 };
-
